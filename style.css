@@ -1,0 +1,145 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: lightpurple;
+  color: darkgreen;
+}
+
+header {
+  background-color: darkgreen;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5em;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#hero {
+  color: white;
+  padding: 2em;
+  text-align: center;
+  background-attachment: fixed; /* Add this line */
+  background-position: center; /* Optional: Center the image within the viewport */
+  background-repeat: no-repeat; /* Optional: Prevent the image from repeating */
+}
+
+#hero-image {
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+#albums {
+  background-color: white;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+  padding: 1em;
+}
+
+.album {
+  text-align: center;
+}
+
+.album img {
+  max-width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.album p {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
+
+#merch {
+  background-color: #f0f0f0; /* Light grey */
+  color: darkgreen;
+  padding: 1em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+#merch a {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+#connect {
+  background-color: white;
+  color: darkgreen;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+#connect ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#connect ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+#connect ul li a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+#toggle-button {
+  background-color: darkgreen;
+  color: white;
+  padding: 0.75em 1.5em;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 1em auto;
+  border-radius: 5px;
+}
+
+#toggle-button:hover {
+  background-color: #006400; /* Darker green */
+}
+
+#extra-info {
+  background-color: white;
+  color: darkgreen;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
